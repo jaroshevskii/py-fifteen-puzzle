@@ -1,6 +1,6 @@
 # 15 Puzzle
 
-A minimal implementation of the classic 15 Puzzle built with Python and raylib via `pyray`.  
+A implementation of the classic 15 Puzzle built with Python and raylib via `pyray`.  
 The project focuses on clarity, deterministic layout, and straightforward rendering logic.
 
 <img width="488" height="520" alt="image" src="https://github.com/user-attachments/assets/8b4296a7-e054-4c21-8e27-a9fba1c9a2e4" />
