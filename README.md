@@ -21,8 +21,6 @@ Architecture is intentionally simple:
 - Stateless helper functions for puzzle logic  
 - Single render loop  
 
----
-
 ## Requirements
 
 - Python 3.9+  
@@ -35,13 +33,9 @@ pip install pyray
 If required (macOS):  
 brew install raylib  
 
----
-
 ## Run
 
 python main.py  
-
----
 
 ## Controls
 
@@ -49,13 +43,9 @@ python main.py
 - Shuffle — S  
 - Restart after victory — Mouse click  
 
----
-
 ## Rendering Model
 
 The game uses a standard game loop: input → state mutation → draw → repeat  
-
-FPS locking can be enabled via `set_target_fps(60)` or disabled with `set_target_fps(0)`  
 
 ## Game Logic
 
@@ -79,3 +69,7 @@ FPS locking can be enabled via `set_target_fps(60)` or disabled with `set_target
 - Animation transitions  
 - Adaptive layout  
 - State isolation (MVC-like separation)  
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE.md) file for details.
